@@ -7,7 +7,7 @@
   </a>
 
   <h1>React Splide (Fork)</h1>
-  <p>This is a fork of original react-splide exporting the types file</p>
+  <p><strong>***This is a fork of original react-splide exporting the types file***</strong></p>
   <p>
     React Splide is the React component for the
     <a href="https://github.com/Splidejs/splide">Splide</a> slider/carousel.
