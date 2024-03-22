@@ -27,14 +27,14 @@
 Get the latest version from NPM:
 
 ```
-$ npm install @splidejs/react-splide
+$ npm install react-splide-ts
 ```
 
 Import CSS and components:
 
 ```jsx
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/react-splide/css";
+import { Splide, SplideSlide } from "react-splide-ts";
+import "react-splide-ts/css";
 
 export function Slider() {
   return (
