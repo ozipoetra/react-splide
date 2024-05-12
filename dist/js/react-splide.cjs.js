@@ -782,8 +782,8 @@ function Slide$1(Splide22, index, slideIndex, slide) {
   function mount() {
     if (!isClone) {
       slide.id = root.id + "-slide" + pad(index + 1);
-      setAttribute(slide, ROLE, pagination ? "tabpanel" : "group");
-      setAttribute(slide, ARIA_ROLEDESCRIPTION, i18n.slide);
+      // setAttribute(slide, ROLE, pagination ? "tabpanel" : "group");
+      // setAttribute(slide, ARIA_ROLEDESCRIPTION, i18n.slide);
       setAttribute(slide, ARIA_LABEL, label || format(i18n.slideLabel, [index + 1, Splide22.length]));
     }
     listen();
